@@ -6,8 +6,6 @@ Array.prototype.myReduce = function(callback, initialValue) {
   } 
   return accumulator;
 }
-
-//
 Array.prototype.myReduce = function(callback, initialValue) {
 let arr = this;
 let accumulator = initialValue !== undefined ? initialValue : arr[0];
